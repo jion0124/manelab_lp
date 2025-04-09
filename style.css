@@ -16,6 +16,9 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
+:root {
+  --size-space-100: 4px;
+}
 
 .LP {
   background-color: #ffffff;
@@ -29,97 +32,53 @@ a {
   background-color: #ffffff;
   overflow-x: hidden;
   width: 390px;
-  height: 13409px;
+  height: 11526px;
   position: relative;
-}
-
-.LP .section {
-  position: absolute;
-  width: 513px;
-  height: 780px;
-  top: 167px;
-  left: -62px;
-}
-
-.LP .container {
-  position: absolute;
-  width: 473px;
-  height: 654px;
-  top: 30px;
-  left: 20px;
 }
 
 .LP .overlap {
   position: absolute;
-  width: 473px;
-  height: 318px;
+  width: 387px;
+  height: 687px;
+  top: 0;
+  left: 3px;
+}
+
+.LP .container {
+  position: absolute;
+  width: 387px;
+  height: 687px;
   top: 0;
   left: 0;
 }
 
-.LP .heading {
-  width: 473px;
-  height: 250px;
+.LP .element {
+  width: 386px;
+  height: 687px;
+  top: 0;
   left: 0;
   position: absolute;
-  top: 0;
-}
-
-.LP .instagzram {
-  position: absolute;
-  width: 372px;
-  height: 208px;
-  top: -18px;
-  left: 51px;
-  font-family: "Noto Sans JP-Bold", Helvetica;
-  font-weight: 700;
-  color: #333333;
-  font-size: 28px;
-  letter-spacing: 0;
-  line-height: 41.6px;
-}
-
-.LP .p {
-  position: absolute;
-  width: 350px;
-  height: 69px;
-  top: 249px;
-  left: 62px;
-  font-family: "Noto Sans JP-Light", Helvetica;
-  font-weight: 400;
-  color: #333333;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 25.6px;
-}
-
-.LP .text-wrapper {
-  font-weight: 300;
-}
-
-.LP .span {
-  font-family: "Noto Sans JP-Bold", Helvetica;
-  font-weight: 700;
+  object-fit: cover;
 }
 
 .LP .group {
   position: absolute;
-  width: 360px;
-  height: 59px;
-  top: 345px;
-  left: 57px;
+  width: 356px;
+  height: 56px;
+  top: 578px;
+  left: 14px;
 }
 
 .LP .link {
   position: absolute;
-  width: 127px;
-  height: 55px;
+  width: 131px;
+  height: 52px;
   top: 4px;
   left: 0;
   background-color: #ffffff;
   border-radius: 50px;
   border: 2px solid;
-  border-color: #2c4484;
+  border-color: #333333;
 }
 
 .LP .overlap-group {
@@ -127,10 +86,10 @@ a {
   width: 196px;
   height: 43px;
   top: 2px;
-  left: -34px;
+  left: -32px;
 }
 
-.LP .text-wrapper-2 {
+.LP .text-wrapper {
   position: absolute;
   width: 196px;
   height: 24px;
@@ -138,7 +97,7 @@ a {
   left: 0;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
-  color: #4a4e9c;
+  color: #646567;
   font-size: 15px;
   text-align: center;
   letter-spacing: 0;
@@ -146,41 +105,40 @@ a {
   white-space: nowrap;
 }
 
-.LP .text-wrapper-3 {
+.LP .text-wrapper-2 {
+  position: absolute;
   width: 196px;
   height: 24px;
   top: 0;
   left: 0;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
-  color: #4a4e9c;
+  color: #646567;
   font-size: 14px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .div-wrapper {
   position: absolute;
-  width: 226px;
-  height: 59px;
+  width: 220px;
+  height: 56px;
   top: 0;
-  left: 134px;
-  background-color: #4c1d95;
+  left: 136px;
+  background-color: #468beb;
   border-radius: 50px;
-  border: 2px solid;
   box-shadow: 0px 4px 4px #00000040;
 }
 
-.LP .text-wrapper-4 {
+.LP .text-wrapper-3 {
   position: absolute;
   width: 180px;
   height: 24px;
-  top: 16px;
-  left: 23px;
-  font-family: "Noto Sans JP-Bold", Helvetica;
+  top: 14px;
+  left: 20px;
+  font-family: "Linefont-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 18px;
@@ -190,98 +148,80 @@ a {
   white-space: nowrap;
 }
 
-.LP .element {
+.LP .text-wrapper-4 {
   position: absolute;
-  width: 377px;
-  height: 64px;
-  top: 425px;
-  left: 49px;
-  font-family: "Noto Sans JP-DemiLight", Helvetica;
-  font-weight: 300;
+  height: 39px;
+  top: 13px;
+  left: 39px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
   color: #000000;
-  font-size: 11px;
+  font-size: 24px;
   letter-spacing: 0;
-  line-height: 21.8px;
+  line-height: 38.4px;
+  white-space: nowrap;
 }
 
-.LP .arrow {
-  position: absolute;
-  width: 15px;
-  height: 71px;
-  top: 509px;
-  left: 310px;
-}
-
-.LP .text-wrapper-5 {
-  position: absolute;
-  width: 3px;
-  height: 74px;
-  top: 507px;
-  left: 330px;
-  font-family: "Noto Sans JP-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 10px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 10px;
-}
-
-.LP .img {
-  position: absolute;
-  width: 255px;
-  height: 26px;
-  top: 694px;
-  left: 130px;
-  background-color: #ffffff01;
-  border-radius: 10px;
-  box-shadow: 0px 10px 30px #0000001a;
-}
-
-.LP .container-wrapper {
+.LP .section {
   position: absolute;
   width: 390px;
   height: 703px;
-  top: 975px;
+  top: 747px;
   left: 0;
   background-color: #f5f5f7;
 }
 
-.LP .container-2 {
+.LP .overlap-group-wrapper {
   position: relative;
-  height: 680px;
-  top: 60px;
+  height: 652px;
+  top: 51px;
 }
 
-.LP .heading-2 {
-  width: 350px;
-  height: 75px;
+.LP .overlap-group-2 {
+  position: relative;
+  width: 351px;
+  height: 690px;
+  top: -10px;
   left: 20px;
-  position: absolute;
-  top: 0;
 }
 
-.LP .text-wrapper-6 {
-  width: 321px;
-  height: 78px;
-  top: -3px;
-  left: 15px;
-  font-size: 24px;
-  text-align: center;
-  line-height: 37.4px;
+.LP .img {
   position: absolute;
+  width: 141px;
+  height: 133px;
+  top: 0;
+  left: 210px;
+  object-fit: cover;
+}
+
+.LP .heading {
+  width: 226px;
+  height: 89px;
+  top: 10px;
+  position: absolute;
+  left: 0;
+}
+
+.LP .text-wrapper-5 {
+  position: absolute;
+  width: 212px;
+  height: 64px;
+  top: 15px;
+  left: 14px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #333333;
+  font-size: 20px;
   letter-spacing: 0;
+  line-height: 37.4px;
 }
 
-.LP .container-3 {
+.LP .container-2 {
   position: absolute;
   width: 350px;
   height: 565px;
-  top: 115px;
-  left: 20px;
+  top: 125px;
+  left: 0;
 }
 
 .LP .paragraph-background {
@@ -295,48 +235,53 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .text-wrapper-7 {
+.LP .text-wrapper-6 {
+  position: absolute;
   width: 271px;
   height: 50px;
-  top: 15px;
-  left: 44px;
+  top: 16px;
+  left: 54px;
   font-family: "Noto Sans JP-DemiLight", Helvetica;
   font-weight: 300;
   color: #333333;
   font-size: 16px;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 25.6px;
 }
 
-.LP .rectangle {
+.LP .select-check-box {
+  top: 28px;
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 30px;
-  left: 10px;
-  background-color: #ffffff;
-  border: 1px solid;
-  border-color: #000000;
+  left: 14px;
 }
 
 .LP .paragraph-background-2 {
   height: 82px;
   top: 392px;
+  left: 0;
   position: absolute;
   width: 350px;
-  left: 0;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 15px #0000000d;
 }
 
+.LP .select-check-box-2 {
+  top: 29px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 14px;
+}
+
 .LP .paragraph-background-3 {
   height: 82px;
   top: 98px;
+  left: 0;
   position: absolute;
   width: 350px;
-  left: 0;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 15px #0000000d;
@@ -345,20 +290,34 @@ a {
 .LP .paragraph-background-4 {
   height: 82px;
   top: 196px;
+  left: 0;
   position: absolute;
   width: 350px;
-  left: 0;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 15px #0000000d;
 }
 
+.LP .text-wrapper-7 {
+  position: absolute;
+  width: 271px;
+  height: 50px;
+  top: 15px;
+  left: 54px;
+  font-family: "Noto Sans JP-DemiLight", Helvetica;
+  font-weight: 300;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25.6px;
+}
+
 .LP .paragraph-background-5 {
   height: 82px;
   top: 294px;
+  left: 0;
   position: absolute;
   width: 350px;
-  left: 0;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 15px #0000000d;
@@ -367,68 +326,54 @@ a {
 .LP .section-2 {
   position: absolute;
   width: 390px;
-  height: 651px;
-  top: 1678px;
+  height: 441px;
+  top: 1450px;
   left: 0;
   background-color: #d4d4d4;
 }
 
 .LP .text-wrapper-8 {
+  position: absolute;
   height: 58px;
-  top: 32px;
+  top: 47px;
   left: 51px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 24px;
   text-align: center;
-  line-height: normal;
-  position: absolute;
   letter-spacing: 0;
+  line-height: normal;
 }
 
 .LP .text-wrapper-9 {
+  position: absolute;
   height: 58px;
-  top: 145px;
+  top: 334px;
   left: 15px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #000000;
   font-size: 24px;
   text-align: center;
-  line-height: normal;
-  position: absolute;
   letter-spacing: 0;
+  line-height: normal;
+}
+
+.LP .element-2 {
+  position: absolute;
+  width: 195px;
+  height: 148px;
+  top: 147px;
+  left: 98px;
+  object-fit: cover;
 }
 
 .LP .overlap-2 {
   position: absolute;
-  width: 264px;
-  height: 272px;
-  top: 270px;
-  left: 56px;
-  background-color: #ffdbdb;
-}
-
-.LP .text-wrapper-10 {
-  height: 29px;
-  top: 106px;
-  left: 12px;
-  font-family: "Noto Sans JP-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 24px;
-  text-align: center;
-  line-height: normal;
-  position: absolute;
-  letter-spacing: 0;
-}
-
-.LP .overlap-3 {
-  position: absolute;
   width: 390px;
-  height: 2186px;
-  top: 2379px;
+  height: 2158px;
+  top: 1944px;
   left: 0;
 }
 
@@ -440,7 +385,16 @@ a {
   left: 0;
 }
 
-.LP .element-2 {
+.LP .element-wrapper {
+  position: absolute;
+  width: 350px;
+  height: 75px;
+  top: 11px;
+  left: 21px;
+}
+
+.LP .p {
+  position: absolute;
   width: 333px;
   height: 78px;
   top: -3px;
@@ -450,16 +404,15 @@ a {
   color: transparent;
   font-size: 28.8px;
   text-align: center;
-  line-height: 37.4px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 37.4px;
 }
 
-.LP .text-wrapper-11 {
+.LP .span {
   color: #333333;
 }
 
-.LP .text-wrapper-12 {
+.LP .text-wrapper-10 {
   color: #ffd43b;
 }
 
@@ -476,7 +429,7 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .overlap-4 {
+.LP .overlap-3 {
   position: absolute;
   width: 311px;
   height: 92px;
@@ -484,15 +437,16 @@ a {
   left: 20px;
 }
 
-.LP .heading-3 {
+.LP .heading-2 {
   width: 311px;
   height: 62px;
-  left: 0;
-  position: absolute;
   top: 0;
+  position: absolute;
+  left: 0;
 }
 
-.LP .text-wrapper-13 {
+.LP .text-wrapper-11 {
+  position: absolute;
   width: 243px;
   height: 66px;
   top: -3px;
@@ -501,12 +455,12 @@ a {
   font-weight: 700;
   color: #333333;
   font-size: 20px;
-  line-height: 31.2px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 31.2px;
 }
 
-.LP .text-wrapper-14 {
+.LP .text-wrapper-12 {
+  position: absolute;
   width: 272px;
   height: 50px;
   top: 42px;
@@ -515,12 +469,11 @@ a {
   font-weight: 300;
   color: #333333;
   font-size: 14px;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 25.6px;
 }
 
-.LP .overlap-group-2 {
+.LP .overlap-group-3 {
   position: absolute;
   width: 301px;
   height: 95px;
@@ -529,7 +482,8 @@ a {
   background-color: #d9d9d9;
 }
 
-.LP .text-wrapper-15 {
+.LP .text-wrapper-13 {
+  position: absolute;
   height: 26px;
   top: 38px;
   left: 67px;
@@ -537,10 +491,9 @@ a {
   font-weight: 300;
   color: #000000;
   font-size: 16px;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .background-shadow-2 {
@@ -556,7 +509,7 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .overlap-5 {
+.LP .overlap-4 {
   position: absolute;
   width: 332px;
   height: 108px;
@@ -564,7 +517,8 @@ a {
   left: 12px;
 }
 
-.LP .text-wrapper-16 {
+.LP .text-wrapper-14 {
+  position: absolute;
   width: 305px;
   height: 66px;
   top: 0;
@@ -573,12 +527,12 @@ a {
   font-weight: 700;
   color: #333333;
   font-size: 20px;
-  line-height: 23px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 23px;
 }
 
-.LP .text-wrapper-17 {
+.LP .text-wrapper-15 {
+  position: absolute;
   width: 332px;
   height: 50px;
   top: 58px;
@@ -587,12 +541,11 @@ a {
   font-weight: 300;
   color: #333333;
   font-size: 14px;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 25.6px;
 }
 
-.LP .overlap-6 {
+.LP .overlap-5 {
   position: absolute;
   width: 301px;
   height: 95px;
@@ -601,7 +554,8 @@ a {
   background-color: #d9d9d9;
 }
 
-.LP .text-wrapper-18 {
+.LP .text-wrapper-16 {
+  position: absolute;
   height: 26px;
   top: 34px;
   left: 67px;
@@ -609,10 +563,9 @@ a {
   font-weight: 300;
   color: #000000;
   font-size: 16px;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .background-shadow-3 {
@@ -628,7 +581,7 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .overlap-7 {
+.LP .overlap-6 {
   position: absolute;
   width: 311px;
   height: 90px;
@@ -636,7 +589,7 @@ a {
   left: 20px;
 }
 
-.LP .text-wrapper-19 {
+.LP .text-wrapper-17 {
   position: absolute;
   width: 254px;
   height: 66px;
@@ -650,7 +603,8 @@ a {
   line-height: 31.2px;
 }
 
-.LP .text-wrapper-20 {
+.LP .text-wrapper-18 {
+  position: absolute;
   width: 236px;
   height: 50px;
   top: 40px;
@@ -659,12 +613,11 @@ a {
   font-weight: 300;
   color: #333333;
   font-size: 14px;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 25.6px;
 }
 
-.LP .overlap-8 {
+.LP .overlap-7 {
   position: absolute;
   width: 301px;
   height: 95px;
@@ -686,7 +639,7 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .overlap-9 {
+.LP .overlap-8 {
   position: absolute;
   width: 333px;
   height: 90px;
@@ -694,7 +647,7 @@ a {
   left: 9px;
 }
 
-.LP .heading-4 {
+.LP .heading-3 {
   position: absolute;
   width: 311px;
   height: 62px;
@@ -702,7 +655,8 @@ a {
   left: 10px;
 }
 
-.LP .text-wrapper-21 {
+.LP .text-wrapper-19 {
+  position: absolute;
   width: 286px;
   height: 66px;
   top: -3px;
@@ -711,12 +665,12 @@ a {
   font-weight: 700;
   color: #333333;
   font-size: 20px;
-  line-height: 31.2px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 31.2px;
 }
 
-.LP .text-wrapper-22 {
+.LP .text-wrapper-20 {
+  position: absolute;
   width: 333px;
   height: 50px;
   top: 40px;
@@ -725,12 +679,11 @@ a {
   font-weight: 300;
   color: #333333;
   font-size: 14px;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 25.6px;
 }
 
-.LP .overlap-10 {
+.LP .overlap-9 {
   position: absolute;
   width: 301px;
   height: 95px;
@@ -752,7 +705,7 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .overlap-11 {
+.LP .overlap-10 {
   position: absolute;
   width: 320px;
   height: 80px;
@@ -760,7 +713,7 @@ a {
   left: 29px;
 }
 
-.LP .heading-5 {
+.LP .heading-4 {
   position: absolute;
   width: 253px;
   height: 62px;
@@ -768,7 +721,8 @@ a {
   left: 20px;
 }
 
-.LP .text-wrapper-23 {
+.LP .text-wrapper-21 {
+  position: absolute;
   width: 318px;
   height: 66px;
   top: -7px;
@@ -777,12 +731,11 @@ a {
   font-weight: 700;
   color: #333333;
   font-size: 20px;
-  line-height: 31.2px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 31.2px;
 }
 
-.LP .text-wrapper-24 {
+.LP .text-wrapper-22 {
   position: absolute;
   width: 320px;
   height: 38px;
@@ -796,7 +749,7 @@ a {
   line-height: 25.6px;
 }
 
-.LP .overlap-12 {
+.LP .overlap-11 {
   position: absolute;
   width: 301px;
   height: 95px;
@@ -805,7 +758,8 @@ a {
   background-color: #d9d9d9;
 }
 
-.LP .text-wrapper-25 {
+.LP .text-wrapper-23 {
+  position: absolute;
   height: 26px;
   top: 34px;
   left: 68px;
@@ -813,33 +767,24 @@ a {
   font-weight: 300;
   color: #000000;
   font-size: 16px;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .overlap-wrapper {
+.LP .container-wrapper {
   position: absolute;
   width: 390px;
   height: 567px;
-  top: 1619px;
+  top: 1591px;
   left: 0;
   background-color: #f5f5f7;
 }
 
-.LP .overlap-13 {
+.LP .container-3 {
   position: relative;
-  height: 531px;
-  top: 36px;
-}
-
-.LP .container-4 {
-  position: absolute;
-  width: 390px;
   height: 507px;
-  top: 24px;
-  left: 0;
+  top: 23px;
 }
 
 .LP .table {
@@ -854,7 +799,7 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .overlap-group-3 {
+.LP .overlap-group-4 {
   position: relative;
   height: 299px;
   top: 1px;
@@ -871,10 +816,10 @@ a {
 .LP .cell {
   width: 72px;
   left: 0;
+  background-color: #c1bdb0;
   position: absolute;
   height: 68px;
   top: 0;
-  background-color: #f5bf00;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-color: #e0e0e0;
@@ -883,16 +828,17 @@ a {
 .LP .cell-2 {
   width: 114px;
   left: 72px;
+  background-color: #c1bdb0;
   position: absolute;
   height: 68px;
   top: 0;
-  background-color: #f5bf00;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-color: #e0e0e0;
 }
 
-.LP .text-wrapper-26 {
+.LP .text-wrapper-24 {
+  position: absolute;
   width: 99px;
   height: 48px;
   top: 9px;
@@ -901,24 +847,24 @@ a {
   font-weight: 700;
   color: #ffffff;
   font-size: 14px;
-  line-height: normal;
-  position: absolute;
   letter-spacing: 0;
+  line-height: normal;
 }
 
 .LP .cell-3 {
   width: 164px;
   left: 186px;
+  background-color: #f5bf00;
   position: absolute;
   height: 68px;
   top: 0;
-  background-color: #f5bf00;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-color: #e0e0e0;
 }
 
-.LP .text-wrapper-27 {
+.LP .text-wrapper-25 {
+  position: absolute;
   width: 66px;
   height: 24px;
   top: 21px;
@@ -927,9 +873,8 @@ a {
   font-weight: 700;
   color: #ffffff;
   font-size: 16px;
-  line-height: normal;
-  position: absolute;
   letter-spacing: 0;
+  line-height: normal;
 }
 
 .LP .body {
@@ -984,7 +929,8 @@ a {
   border-color: #e0e0e0;
 }
 
-.LP .text-wrapper-28 {
+.LP .text-wrapper-26 {
+  position: absolute;
   width: 80px;
   height: 24px;
   top: 22px;
@@ -993,9 +939,8 @@ a {
   font-weight: 300;
   color: #333333;
   font-size: 16px;
-  line-height: normal;
-  position: absolute;
   letter-spacing: 0;
+  line-height: normal;
 }
 
 .LP .data-3 {
@@ -1010,7 +955,8 @@ a {
   border-color: #e0e0e0;
 }
 
-.LP .text-wrapper-29 {
+.LP .text-wrapper-27 {
+  position: absolute;
   width: 81px;
   height: 48px;
   top: 10px;
@@ -1019,9 +965,8 @@ a {
   font-weight: 500;
   color: #333333;
   font-size: 16px;
-  line-height: normal;
-  position: absolute;
   letter-spacing: 0;
+  line-height: normal;
 }
 
 .LP .row-2 {
@@ -1040,7 +985,8 @@ a {
   left: 15px;
 }
 
-.LP .text-wrapper-30 {
+.LP .text-wrapper-28 {
+  position: absolute;
   width: 32px;
   height: 48px;
   top: -1px;
@@ -1049,12 +995,12 @@ a {
   font-weight: 700;
   color: #333333;
   font-size: 16px;
-  line-height: normal;
-  position: absolute;
   letter-spacing: 0;
+  line-height: normal;
 }
 
-.LP .text-wrapper-31 {
+.LP .text-wrapper-29 {
+  position: absolute;
   width: 70px;
   height: 48px;
   top: 10px;
@@ -1063,12 +1009,11 @@ a {
   font-weight: 300;
   color: #333333;
   font-size: 16px;
-  line-height: normal;
-  position: absolute;
   letter-spacing: 0;
+  line-height: normal;
 }
 
-.LP .text-wrapper-32 {
+.LP .text-wrapper-30 {
   position: absolute;
   width: 159px;
   height: 48px;
@@ -1098,7 +1043,8 @@ a {
   left: 15px;
 }
 
-.LP .text-wrapper-33 {
+.LP .text-wrapper-31 {
+  position: absolute;
   width: 54px;
   height: 72px;
   top: 0;
@@ -1107,9 +1053,8 @@ a {
   font-weight: 700;
   color: #333333;
   font-size: 15px;
-  line-height: normal;
-  position: absolute;
   letter-spacing: 0;
+  line-height: normal;
 }
 
 .LP .data-4 {
@@ -1135,7 +1080,8 @@ a {
   background-color: #ffefb8bf;
 }
 
-.LP .text-wrapper-34 {
+.LP .text-wrapper-32 {
+  position: absolute;
   width: 128px;
   height: 72px;
   top: 9px;
@@ -1144,53 +1090,77 @@ a {
   font-weight: 500;
   color: #333333;
   font-size: 14px;
-  line-height: normal;
-  position: absolute;
   letter-spacing: 0;
+  line-height: normal;
 }
 
-.LP .text-wrapper-35 {
+.LP .overlap-12 {
+  position: absolute;
+  width: 384px;
+  height: 120px;
+  top: 10px;
+  left: 3px;
+}
+
+.LP .text-wrapper-33 {
+  position: absolute;
   height: 46px;
-  top: 64px;
-  left: 25px;
+  top: 74px;
+  left: 22px;
   font-family: "Noto Sans JP-Medium", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 20px;
-  line-height: 23px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 23px;
 }
 
-.LP .text-wrapper-36 {
+.LP .text-wrapper-34 {
+  position: absolute;
   width: 384px;
   height: 79px;
-  top: -3px;
-  left: -17px;
+  top: 0;
+  left: 0;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #333333;
   font-size: 24px;
   text-align: center;
-  line-height: 37.4px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 37.4px;
 }
 
 .LP .section-4 {
   position: absolute;
   width: 390px;
-  height: 1029px;
-  top: 4608px;
-  left: 3px;
+  height: 2479px;
+  top: 4160px;
+  left: 1px;
+  background-color: #ffffff;
 }
 
-.LP .heading-6 {
+.LP .group-2 {
   position: absolute;
-  width: 317px;
+  width: 350px;
+  height: 1137px;
+  top: 0;
+  left: 19px;
+}
+
+.LP .container-4 {
+  position: absolute;
+  width: 350px;
+  height: 784px;
+  top: 0;
+  left: 0;
+}
+
+.LP .heading-5 {
+  position: absolute;
+  width: 116px;
   height: 41px;
-  top: -3px;
-  left: 37px;
+  top: -1px;
+  left: 117px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #333333;
@@ -1202,74 +1172,137 @@ a {
 }
 
 .LP .background-shadow-6 {
-  width: 349px;
-  height: 366px;
-  top: 78px;
-  left: 21px;
+  width: 350px;
+  height: 213px;
+  top: 79px;
+  left: 0;
   position: absolute;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .overlap-group-4 {
+.LP .group-wrapper {
   position: absolute;
-  width: 305px;
-  height: 167px;
-  top: 28px;
-  left: 21px;
+  width: 311px;
+  height: 94px;
+  top: 18px;
+  left: 15px;
 }
 
-.LP .heading-7 {
-  position: absolute;
-  width: 278px;
-  height: 66px;
-  top: 0;
-  left: 14px;
+.LP .overlap-wrapper {
+  width: 313px;
+  height: 94px;
 }
 
-.LP .text-wrapper-37 {
-  width: 233px;
-  height: 32px;
-  top: 16px;
-  left: 23px;
-  font-family: "Noto Sans JP-Bold", Helvetica;
-  font-weight: 700;
-  color: #4a4e9c;
-  font-size: 21px;
-  line-height: 31.2px;
-  position: absolute;
-  letter-spacing: 0;
+.LP .overlap-13 {
+  position: relative;
+  width: 315px;
+  height: 94px;
 }
 
-.LP .element-3 {
-  width: 305px;
-  height: 103px;
-  top: 64px;
-  left: 0;
-  font-family: "Noto Sans JP-Light", Helvetica;
-  font-weight: 400;
+.LP .text-wrapper-35 {
+  position: absolute;
+  height: 26px;
+  top: 59px;
+  left: 94px;
+  font-family: "Noto Sans JP-DemiLight", Helvetica;
+  font-weight: 300;
   color: #333333;
   font-size: 16px;
-  line-height: 25.6px;
-  position: absolute;
+  text-align: center;
   letter-spacing: 0;
+  line-height: 25.6px;
+  white-space: nowrap;
 }
 
-.LP .element-4 {
+.LP .group-3 {
   position: absolute;
-  width: 304px;
-  height: 156px;
-  top: 196px;
-  left: 15px;
+  width: 315px;
+  height: 94px;
+  top: 0;
+  left: 0;
+}
+
+.LP .img-wrapper {
+  position: absolute;
+  width: 94px;
+  top: 0;
+  left: 0;
+  height: 94px;
+  border-radius: 75px;
+  overflow: hidden;
+  border: 5px solid;
+  border-color: #f5f5f7;
+}
+
+.LP .taji {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  top: 3px;
+  left: 0;
   object-fit: cover;
 }
 
+.LP .overlap-group-5 {
+  position: absolute;
+  width: 217px;
+  height: 55px;
+  top: 6px;
+  left: 94px;
+}
+
+.LP .heading-6 {
+  position: absolute;
+  height: 32px;
+  top: 0;
+  left: 0;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #333333;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 31.2px;
+  white-space: nowrap;
+}
+
+.LP .text-wrapper-36 {
+  position: absolute;
+  height: 26px;
+  top: 29px;
+  left: 0;
+  font-family: "Noto Sans JP-DemiLight", Helvetica;
+  font-weight: 300;
+  color: #333333;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  white-space: nowrap;
+}
+
+.LP .element-3 {
+  position: absolute;
+  width: 290px;
+  height: 50px;
+  top: 135px;
+  left: 36px;
+  font-family: "Noto Sans JP-DemiLight", Helvetica;
+  font-weight: 300;
+  color: #333333;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.6px;
+}
+
 .LP .background-shadow-7 {
-  width: 349px;
-  height: 371px;
-  top: 476px;
-  left: 15px;
+  width: 350px;
+  height: 217px;
+  top: 319px;
+  left: 0;
   position: absolute;
   background-color: #ffffff;
   border-radius: 10px;
@@ -1277,161 +1310,69 @@ a {
 }
 
 .LP .overlap-14 {
-  position: absolute;
-  width: 313px;
-  height: 138px;
-  top: 12px;
-  left: 25px;
+  position: relative;
+  width: 307px;
+  height: 161px;
+  top: 24px;
+  left: 15px;
 }
 
-.LP .heading-8 {
+.LP .group-4 {
   position: absolute;
-  width: 289px;
-  height: 62px;
+  width: 307px;
+  height: 161px;
   top: 0;
-  left: 5px;
+  left: 0;
+}
+
+.LP .element-4 {
+  width: 90px;
+  height: 90px;
+  top: 2px;
+  left: 2px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.LP .text-wrapper-37 {
+  position: absolute;
+  width: 290px;
+  height: 50px;
+  top: 111px;
+  left: 15px;
+  font-family: "Noto Sans JP-DemiLight", Helvetica;
+  font-weight: 300;
+  color: #333333;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.6px;
 }
 
 .LP .text-wrapper-38 {
   position: absolute;
-  width: 278px;
-  height: 66px;
-  top: -3px;
-  left: 0;
-  font-family: "Noto Sans JP-Bold", Helvetica;
-  font-weight: 700;
-  color: #4a4e9c;
-  font-size: 21px;
-  letter-spacing: 0;
-  line-height: 31.2px;
-}
-
-.LP .element-5 {
-  width: 313px;
-  height: 77px;
-  top: 61px;
-  left: 0;
-  font-family: "Noto Sans JP-Light", Helvetica;
-  font-weight: 400;
+  height: 26px;
+  top: 59px;
+  left: 97px;
+  font-family: "Noto Sans JP-DemiLight", Helvetica;
+  font-weight: 300;
   color: #333333;
   font-size: 16px;
-  line-height: 25.6px;
-  position: absolute;
-  letter-spacing: 0;
-}
-
-.LP .element-6 {
-  position: absolute;
-  width: 291px;
-  height: 149px;
-  top: 186px;
-  left: 30px;
-  object-fit: cover;
-}
-
-.LP .image {
-  position: absolute;
-  width: 304px;
-  height: 156px;
-  top: 873px;
-  left: 35px;
-  object-fit: cover;
-}
-
-.LP .element-7 {
-  position: absolute;
-  width: 291px;
-  height: 149px;
-  top: 1206px;
-  left: 38px;
-  object-fit: cover;
-}
-
-.LP .element-8 {
-  position: absolute;
-  width: 287px;
-  height: 147px;
-  top: 1046px;
-  left: 54px;
-  object-fit: cover;
-}
-
-.LP .section-5 {
-  position: absolute;
-  width: 390px;
-  height: 1829px;
-  top: 6474px;
-  left: 0;
-  background-color: #f5f5f7;
-}
-
-.LP .container-5 {
-  position: absolute;
-  width: 390px;
-  height: 903px;
-  top: 60px;
-  left: 0;
-}
-
-.LP .heading-9 {
-  position: absolute;
-  width: 116px;
-  height: 41px;
-  top: -3px;
-  left: 137px;
-  font-family: "Noto Sans JP-Bold", Helvetica;
-  font-weight: 700;
-  color: #333333;
-  font-size: 28.8px;
   text-align: center;
   letter-spacing: 0;
-  line-height: 37.4px;
+  line-height: 25.6px;
   white-space: nowrap;
 }
 
-.LP .group-wrapper {
-  width: 350px;
-  height: 398px;
-  top: 77px;
-  left: 20px;
+.LP .heading-7 {
   position: absolute;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0px 5px 15px #0000000d;
-}
-
-.LP .group-2 {
-  position: relative;
-  width: 296px;
-  height: 316px;
-  top: 46px;
-  left: 30px;
-}
-
-.LP .img-2 {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  top: 0;
-  left: 70px;
-  border-radius: 75px;
-  border: 5px solid;
-  border-color: #f5f5f7;
-  background-image: url(./img/taji-2.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.LP .heading-10 {
-  position: absolute;
-  width: 96px;
-  height: 35px;
-  top: 168px;
+  height: 32px;
+  top: 7px;
   left: 97px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #333333;
-  font-size: 24px;
+  font-size: 15px;
   text-align: center;
   letter-spacing: 0;
   line-height: 31.2px;
@@ -1439,148 +1380,130 @@ a {
 }
 
 .LP .text-wrapper-39 {
-  width: 224px;
-  height: 24px;
-  top: 222px;
-  left: 33px;
+  position: absolute;
+  height: 26px;
+  top: 33px;
+  left: 97px;
   font-family: "Noto Sans JP-DemiLight", Helvetica;
   font-weight: 300;
   color: #333333;
   font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  text-align: center;
-  letter-spacing: 0;
-}
-
-.LP .text-wrapper-40 {
-  width: 290px;
-  height: 50px;
-  top: 267px;
-  left: 0;
-  font-family: "Noto Sans JP-DemiLight", Helvetica;
-  font-weight: 300;
-  color: #333333;
-  font-size: 16px;
-  text-align: center;
-  line-height: 25.6px;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .background-shadow-8 {
   width: 350px;
-  height: 398px;
-  top: 505px;
-  left: 20px;
+  height: 221px;
+  top: 563px;
+  left: 0;
   position: absolute;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .group-3 {
-  position: relative;
-  width: 296px;
-  height: 316px;
-  top: 36px;
-  left: 30px;
+.LP .group-5 {
+  position: absolute;
+  width: 94px;
+  height: 94px;
+  top: 19px;
+  left: 0;
 }
 
-.LP .img-3 {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  top: 0;
-  left: 70px;
+.LP .img-2 {
+  position: relative;
+  height: 94px;
   border-radius: 75px;
+  overflow: hidden;
   border: 5px solid;
   border-color: #f5f5f7;
-  background-image: url(./img/1.png);
-  background-size: cover;
-  background-position: 50% 50%;
+}
+
+.LP .element-5 {
+  width: 88px;
+  height: 91px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.LP .element-6 {
+  position: absolute;
+  width: 290px;
+  height: 50px;
+  top: 143px;
+  left: 30px;
+  font-family: "Noto Sans JP-DemiLight", Helvetica;
+  font-weight: 300;
+  color: #333333;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.6px;
+}
+
+.LP .overlap-15 {
+  position: absolute;
+  width: 256px;
+  height: 78px;
+  top: 32px;
+  left: 94px;
+}
+
+.LP .text-wrapper-40 {
+  position: absolute;
+  height: 26px;
+  top: 52px;
+  left: 2px;
+  font-family: "Noto Sans JP-DemiLight", Helvetica;
+  font-weight: 300;
+  color: #333333;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  white-space: nowrap;
+}
+
+.LP .group-6 {
+  position: absolute;
+  width: 256px;
+  height: 55px;
+  top: 0;
+  left: 0;
+}
+
+.LP .overlap-group-6 {
+  position: relative;
+  width: 252px;
+  height: 55px;
 }
 
 .LP .text-wrapper-41 {
-  width: 264px;
-  height: 24px;
-  top: 222px;
-  left: 26px;
+  position: absolute;
+  height: 26px;
+  top: 29px;
+  left: 2px;
   font-family: "Noto Sans JP-DemiLight", Helvetica;
   font-weight: 300;
   color: #333333;
   font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  text-align: center;
-  letter-spacing: 0;
 }
 
-.LP .background-shadow-9 {
-  width: 350px;
-  height: 398px;
-  top: 940px;
-  left: 20px;
+.LP .group-7 {
   position: absolute;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0px 5px 15px #0000000d;
-}
-
-.LP .group-4 {
-  position: relative;
-  width: 296px;
-  height: 316px;
-  top: 42px;
-  left: 30px;
-}
-
-.LP .img-4 {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  top: 0;
-  left: 70px;
-  border-radius: 75px;
-  border: 5px solid;
-  border-color: #f5f5f7;
-  background-image: url(./img/1-2.png);
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.LP .heading-11 {
-  position: absolute;
-  width: 123px;
-  height: 35px;
-  top: 168px;
-  left: 84px;
-  font-family: "Noto Sans JP-Bold", Helvetica;
-  font-weight: 700;
-  color: #333333;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 31.2px;
-  white-space: nowrap;
-}
-
-.LP .text-wrapper-42 {
-  width: 241px;
-  height: 24px;
-  top: 221px;
-  left: 25px;
-  font-family: "Noto Sans JP-DemiLight", Helvetica;
-  font-weight: 300;
-  color: #333333;
-  font-size: 16px;
-  line-height: 25.6px;
-  white-space: nowrap;
-  position: absolute;
-  text-align: center;
-  letter-spacing: 0;
+  width: 326px;
+  height: 315px;
+  top: 822px;
+  left: 13px;
 }
 
 .LP .frame {
@@ -1588,12 +1511,12 @@ a {
   width: 319px;
   align-items: center;
   justify-content: space-between;
+  top: 252px;
   position: absolute;
-  top: 1710px;
-  left: 34px;
+  left: 1px;
 }
 
-.LP .img-5 {
+.LP .img-3 {
   position: relative;
   width: 60px;
   height: 63px;
@@ -1605,9 +1528,9 @@ a {
   width: 323px;
   align-items: center;
   justify-content: space-between;
+  top: 177px;
   position: absolute;
-  top: 1635px;
-  left: 34px;
+  left: 1px;
 }
 
 .LP .frame-3 {
@@ -1617,39 +1540,228 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 0px var(--size-space-100) 0px var(--size-space-100);
+  top: 102px;
   position: absolute;
-  top: 1560px;
-  left: 34px;
+  left: 1px;
 }
 
 .LP .instagram {
+  position: absolute;
   height: 63px;
-  top: 1465px;
-  left: 35px;
+  top: 0;
+  left: 0;
   font-family: "Noto Sans JP-Medium", Helvetica;
   font-weight: 500;
   color: #000000;
   font-size: 18px;
-  line-height: 31.2px;
-  position: absolute;
   text-align: center;
   letter-spacing: 0;
+  line-height: 31.2px;
+}
+
+.LP .section-5 {
+  position: absolute;
+  width: 390px;
+  height: 1256px;
+  top: 1223px;
+  left: 0;
+  background-color: #ececec;
+}
+
+.LP .background-shadow-9 {
+  width: 349px;
+  height: 335px;
+  top: 107px;
+  left: 20px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px #0000000d;
+}
+
+.LP .heading-8 {
+  position: absolute;
+  width: 289px;
+  height: 62px;
+  top: 12px;
+  left: 30px;
+}
+
+.LP .text-wrapper-42 {
+  position: absolute;
+  width: 222px;
+  height: 25px;
+  top: 17px;
+  left: 34px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #4a4e9c;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.LP .image {
+  position: absolute;
+  width: 304px;
+  height: 156px;
+  top: 158px;
+  left: 22px;
+  object-fit: cover;
+}
+
+.LP .AI {
+  height: 66px;
+  top: 80px;
+  left: 14px;
+  font-family: "Noto Sans JP-Regular", Helvetica;
+  color: #000000;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.LP .background-shadow-10 {
+  width: 349px;
+  height: 339px;
+  top: 488px;
+  left: 20px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px #0000000d;
+}
+
+.LP .overlap-group-7 {
+  position: absolute;
+  width: 307px;
+  height: 127px;
+  top: 12px;
+  left: 21px;
+}
+
+.LP .heading-9 {
+  position: absolute;
+  width: 289px;
+  height: 62px;
+  top: 0;
+  left: 9px;
+}
+
+.LP .text-wrapper-43 {
+  position: absolute;
+  height: 24px;
+  top: 18px;
+  left: -15px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #4a4e9c;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.LP .text-wrapper-44 {
+  position: absolute;
+  height: 66px;
+  top: 61px;
+  left: 0;
+  font-family: "Noto Sans JP-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.LP .element-7 {
+  position: absolute;
+  width: 287px;
+  height: 147px;
+  top: 161px;
+  left: 29px;
+  object-fit: cover;
+}
+
+.LP .background-shadow-11 {
+  width: 349px;
+  height: 340px;
+  top: 872px;
+  left: 21px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px #0000000d;
+}
+
+.LP .element-8 {
+  position: absolute;
+  width: 291px;
+  height: 149px;
+  top: 163px;
+  left: 29px;
+  object-fit: cover;
+}
+
+.LP .text-wrapper-45 {
+  position: absolute;
+  height: 48px;
+  top: 22px;
+  left: 55px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #4a4e9c;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.LP .text-wrapper-46 {
+  position: absolute;
+  height: 66px;
+  top: 83px;
+  left: 15px;
+  font-family: "Noto Sans JP-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: -0.70px;
+  line-height: 22px;
+}
+
+.LP .heading-10 {
+  position: absolute;
+  width: 350px;
+  height: 41px;
+  top: 26px;
+  left: 20px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #333333;
+  font-size: 28.8px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 37.4px;
+  white-space: nowrap;
 }
 
 .LP .section-6 {
   position: absolute;
-  width: 350px;
-  height: 1547px;
-  top: 8341px;
+  width: 351px;
+  height: 1564px;
+  top: 6708px;
   left: 20px;
 }
 
-.LP .heading-12 {
+.LP .heading-11 {
   position: absolute;
   width: 350px;
   height: 41px;
-  top: 18px;
-  left: -1px;
+  top: -1px;
+  left: 0;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #333333;
@@ -1661,136 +1773,147 @@ a {
 }
 
 .LP .paragraph-background-6 {
-  height: 424px;
-  top: 89px;
+  height: 338px;
+  top: 128px;
+  left: 1px;
   border: 1px solid;
   border-color: #000000;
   position: absolute;
   width: 350px;
-  left: 0;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 15px #0000000d;
 }
 
 .LP .div-2 {
+  position: absolute;
   width: 319px;
   height: 308px;
-  top: 23px;
-  left: 15px;
+  top: 14px;
+  left: 16px;
   font-family: "Noto Sans JP-Light", Helvetica;
   font-weight: 400;
   color: #333333;
   font-size: 16px;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 25.6px;
 }
 
-.LP .group-5 {
-  position: absolute;
-  width: 129px;
-  height: 55px;
-  top: 354px;
-  left: 111px;
+.LP .text-wrapper-47 {
+  font-weight: 300;
 }
 
-.LP .strong-3 {
-  position: absolute;
-  width: 64px;
-  height: 24px;
-  top: 16px;
-  left: 63px;
+.LP .text-wrapper-48 {
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
-  color: #333333;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 25.6px;
-  white-space: nowrap;
 }
 
-.LP .element-9 {
+.LP .group-8 {
+  position: absolute;
+  width: 302px;
+  height: 55px;
+  top: 53px;
+  left: 1px;
+}
+
+.LP .group-9 {
   position: absolute;
   width: 55px;
   height: 55px;
   top: 0;
   left: 0;
-  object-fit: cover;
+  background-image: url(./img/481680714-3753573164788203-5955294749499003306-n.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.LP .group-10 {
+  position: absolute;
+  width: 238px;
+  height: 42px;
+  top: 9px;
+  left: 68px;
+}
+
+.LP .text-wrapper-49 {
+  position: absolute;
+  height: 26px;
+  top: 0;
+  left: 0;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  white-space: nowrap;
+}
+
+.LP .text-wrapper-50 {
+  position: absolute;
+  width: 118px;
+  height: 16px;
+  top: 26px;
+  left: 0;
+  font-family: "Noto Sans JP-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  white-space: nowrap;
 }
 
 .LP .frame-4 {
-  position: absolute;
   width: 350px;
   height: 419px;
-  top: 542px;
-  left: 0;
+  top: 523px;
+  position: absolute;
+  left: 1px;
 }
 
-.LP .paragraph-background-7 {
-  height: 419px;
-  top: 0;
+.LP .zoom-wrapper {
+  height: 350px;
+  top: 69px;
+  left: 0;
   border: 1px solid;
   border-color: #000000;
   position: absolute;
   width: 350px;
-  left: 0;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 15px #0000000d;
 }
 
 .LP .zoom {
-  position: absolute;
   width: 319px;
   height: 308px;
   top: 20px;
   left: 15px;
   font-family: "Noto Sans JP-Light", Helvetica;
+  color: #333333;
+  font-size: 16px;
+  line-height: 25.6px;
+  position: absolute;
   font-weight: 400;
-  color: #333333;
-  font-size: 16px;
   letter-spacing: 0;
-  line-height: 25.6px;
 }
 
-.LP .group-6 {
-  position: absolute;
-  width: 146px;
-  height: 55px;
-  top: 345px;
-  left: 103px;
-}
-
-.LP .strong-4 {
-  position: absolute;
-  width: 81px;
-  height: 24px;
-  top: 16px;
-  left: 63px;
-  font-family: "Noto Sans JP-Bold", Helvetica;
-  font-weight: 700;
-  color: #333333;
-  font-size: 16px;
-  letter-spacing: 0;
-  line-height: 25.6px;
-  white-space: nowrap;
-}
-
-.LP .paragraph-background-8 {
-  height: 232px;
-  top: 447px;
+.LP .paragraph-background-7 {
+  height: 170px;
+  top: 519px;
+  left: 0;
   border: 1px solid;
   border-color: #000000;
   position: absolute;
   width: 350px;
-  left: 0;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .element-10 {
+.LP .element-9 {
+  position: absolute;
   width: 319px;
   height: 128px;
   top: 20px;
@@ -1799,57 +1922,90 @@ a {
   font-weight: 400;
   color: #333333;
   font-size: 16px;
-  line-height: 25.6px;
-  position: absolute;
-  letter-spacing: 0;
-}
-
-.LP .group-7 {
-  position: absolute;
-  width: 163px;
-  height: 79px;
-  top: 152px;
-  left: 91px;
-}
-
-.LP .strong-5 {
-  position: absolute;
-  width: 82px;
-  height: 24px;
-  top: 29px;
-  left: 79px;
-  font-family: "Noto Sans JP-Bold", Helvetica;
-  font-weight: 700;
-  color: #333333;
-  font-size: 16px;
   letter-spacing: 0;
   line-height: 25.6px;
-  white-space: nowrap;
 }
 
-.LP .element-11 {
+.LP .group-11 {
   position: absolute;
-  width: 79px;
-  height: 79px;
+  width: 327px;
+  height: 55px;
+  top: 0;
+  left: 0;
+}
+
+.LP .group-12 {
+  position: absolute;
+  width: 262px;
+  height: 42px;
+  top: 4px;
+  left: 65px;
+}
+
+.LP .group-13 {
+  width: 266px;
+  position: relative;
+  height: 42px;
+}
+
+.LP .element-10 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
   top: 0;
   left: 0;
   object-fit: cover;
 }
 
-.LP .paragraph-background-9 {
-  height: 283px;
-  top: 1251px;
+.LP .group-14 {
+  position: absolute;
+  width: 295px;
+  height: 55px;
+  top: 979px;
+  left: 1px;
+}
+
+.LP .group-15 {
+  position: absolute;
+  width: 230px;
+  height: 42px;
+  top: 2px;
+  left: 65px;
+}
+
+.LP .group-16 {
+  height: 42px;
+}
+
+.LP .group-17 {
+  width: 234px;
+  position: relative;
+  height: 42px;
+}
+
+.LP .group-18 {
+  position: absolute;
+  width: 353px;
+  height: 296px;
+  top: 1241px;
+  left: -2px;
+}
+
+.LP .paragraph-background-8 {
+  height: 224px;
+  top: 72px;
+  left: 3px;
   border: 1px solid;
   border-color: #000000;
   position: absolute;
   width: 350px;
-  left: 0;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 5px 15px #0000000d;
 }
 
 .LP .div-3 {
+  position: absolute;
   width: 319px;
   height: 180px;
   top: 21px;
@@ -1858,43 +2014,66 @@ a {
   font-weight: 400;
   color: #333333;
   font-size: 16px;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 25.6px;
 }
 
-.LP .group-8 {
+.LP .group-19 {
   position: absolute;
-  width: 163px;
+  width: 349px;
   height: 55px;
-  top: 215px;
-  left: 94px;
+  top: 0;
+  left: 0;
 }
 
-.LP .strong-6 {
+.LP .group-20 {
   position: absolute;
-  width: 98px;
-  height: 24px;
-  top: 16px;
-  left: 63px;
+  width: 290px;
+  height: 42px;
+  top: 5px;
+  left: 59px;
+}
+
+.LP .group-21 {
+  width: 294px;
+  position: relative;
+  height: 42px;
+}
+
+.LP .text-wrapper-51 {
+  position: absolute;
+  height: 26px;
+  top: 0;
+  left: 0;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
-  color: #333333;
-  font-size: 16px;
+  color: #000000;
+  font-size: 13px;
   letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
+}
+
+.LP .group-22 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 0;
+  left: 0;
+  background-image: url(./img/481941268-1819339802235121-5501376926826181125-n.png);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .LP .section-7 {
   position: absolute;
   width: 390px;
   height: 1177px;
-  top: 9973px;
+  top: 8364px;
   left: 0;
 }
 
-.LP .heading-13 {
+.LP .heading-12 {
   position: absolute;
   width: 231px;
   height: 41px;
@@ -1923,7 +2102,7 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .heading-14 {
+.LP .heading-13 {
   position: absolute;
   width: 216px;
   height: 35px;
@@ -1939,7 +2118,7 @@ a {
   white-space: nowrap;
 }
 
-.LP .group-9 {
+.LP .group-23 {
   position: absolute;
   width: 178px;
   height: 64px;
@@ -1947,23 +2126,24 @@ a {
   left: 88px;
 }
 
-.LP .text-wrapper-43 {
+.LP .text-wrapper-52 {
+  position: absolute;
   width: 149px;
   height: 64px;
   top: 0;
   left: 0;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
-  color: #ffd43b;
+  color: #478beb;
   font-size: 40px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 64px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .text-wrapper-44 {
+.LP .text-wrapper-53 {
+  position: absolute;
   width: 23px;
   height: 24px;
   top: 30px;
@@ -1973,18 +2153,17 @@ a {
   color: #666666;
   font-size: 16px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .strong-7 {
-  top: 175px;
-  left: 74px;
+.LP .strong-3 {
   position: absolute;
   width: 202px;
   height: 24px;
+  top: 175px;
+  left: 74px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #333333;
@@ -2011,7 +2190,8 @@ a {
   left: 14px;
 }
 
-.LP .text-wrapper-45 {
+.LP .text-wrapper-54 {
+  position: absolute;
   width: 12px;
   height: 26px;
   top: -1px;
@@ -2020,13 +2200,13 @@ a {
   font-weight: 700;
   color: #4caf50;
   font-size: 16px;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .text-wrapper-46 {
+.LP .text-wrapper-55 {
+  position: absolute;
   width: 213px;
   height: 24px;
   top: -1px;
@@ -2035,10 +2215,9 @@ a {
   font-weight: 300;
   color: #333333;
   font-size: 16px;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .item-2 {
@@ -2049,7 +2228,8 @@ a {
   left: 14px;
 }
 
-.LP .text-wrapper-47 {
+.LP .text-wrapper-56 {
+  position: absolute;
   width: 12px;
   height: 26px;
   top: -1px;
@@ -2058,10 +2238,9 @@ a {
   font-weight: 700;
   color: #333333;
   font-size: 16px;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .item-3 {
@@ -2072,7 +2251,7 @@ a {
   left: 14px;
 }
 
-.LP .text-wrapper-48 {
+.LP .text-wrapper-57 {
   position: absolute;
   width: 211px;
   height: 26px;
@@ -2086,7 +2265,7 @@ a {
   line-height: 25.6px;
 }
 
-.LP .strong-8 {
+.LP .strong-4 {
   top: 72px;
   left: 44px;
   position: absolute;
@@ -2119,23 +2298,23 @@ a {
   background-color: #ffffff;
   border-radius: 50px;
   border: 2px solid;
-  border-color: #ffd43b;
+  border-color: #478beb;
 }
 
-.LP .text-wrapper-49 {
+.LP .text-wrapper-58 {
+  position: absolute;
   width: 202px;
   height: 24px;
   top: 15px;
   left: 42px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
-  color: #ffd43b;
+  color: #478beb;
   font-size: 16px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .background-border-2 {
@@ -2147,11 +2326,11 @@ a {
   background-color: #ffffff;
   border-radius: 10px;
   border: 2px solid;
-  border-color: #ffd43b;
+  border-color: #478beb;
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .heading-15 {
+.LP .heading-14 {
   position: absolute;
   width: 198px;
   height: 35px;
@@ -2167,7 +2346,7 @@ a {
   white-space: nowrap;
 }
 
-.LP .overlap-group-5 {
+.LP .overlap-group-8 {
   position: absolute;
   width: 235px;
   height: 64px;
@@ -2175,23 +2354,24 @@ a {
   left: 57px;
 }
 
-.LP .text-wrapper-50 {
+.LP .text-wrapper-59 {
+  position: absolute;
   width: 171px;
   height: 64px;
   top: 0;
   left: 0;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
-  color: #ffd43b;
+  color: #478beb;
   font-size: 40px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 64px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .text-wrapper-51 {
+.LP .text-wrapper-60 {
+  position: absolute;
   width: 64px;
   height: 24px;
   top: 30px;
@@ -2201,13 +2381,12 @@ a {
   color: #666666;
   font-size: 16px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .strong-9 {
+.LP .strong-5 {
   position: absolute;
   width: 270px;
   height: 24px;
@@ -2225,28 +2404,28 @@ a {
 
 .LP .background {
   position: absolute;
-  width: 81px;
-  height: 30px;
-  top: -13px;
-  left: 237px;
+  width: 108px;
+  height: 34px;
+  top: -17px;
+  left: 210px;
   background-color: #ffd43b;
   border-radius: 20px;
 }
 
-.LP .text-wrapper-52 {
-  width: 52px;
+.LP .text-wrapper-61 {
+  position: absolute;
+  width: 63px;
   height: 20px;
-  top: 4px;
-  left: 15px;
+  top: 6px;
+  left: 22px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
-  font-size: 12.8px;
+  font-size: 14px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 20.5px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .list-2 {
@@ -2268,7 +2447,8 @@ a {
   height: 25.59px;
 }
 
-.LP .text-wrapper-53 {
+.LP .text-wrapper-62 {
+  position: absolute;
   width: 211px;
   height: 24px;
   top: -1px;
@@ -2277,13 +2457,13 @@ a {
   font-weight: 300;
   color: #333333;
   font-size: 16px;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .text-wrapper-54 {
+.LP .text-wrapper-63 {
+  position: absolute;
   width: 295px;
   height: 24px;
   top: -1px;
@@ -2292,13 +2472,13 @@ a {
   font-weight: 700;
   color: #333333;
   font-size: 15px;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .text-wrapper-55 {
+.LP .text-wrapper-64 {
+  position: absolute;
   width: 224px;
   height: 24px;
   top: -1px;
@@ -2307,13 +2487,12 @@ a {
   font-weight: 300;
   color: #333333;
   font-size: 16px;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .strong-10 {
+.LP .strong-6 {
   top: 318px;
   left: 71px;
   position: absolute;
@@ -2335,12 +2514,12 @@ a {
   height: 60px;
   top: 441px;
   left: 32px;
-  background-color: #ffd43b;
+  background-color: #478beb;
   border-radius: 50px;
-  border: 2px solid;
 }
 
-.LP .text-wrapper-56 {
+.LP .text-wrapper-65 {
+  position: absolute;
   width: 144px;
   height: 24px;
   top: 15px;
@@ -2350,10 +2529,9 @@ a {
   color: #ffffff;
   font-size: 16px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .item-6 {
@@ -2375,24 +2553,34 @@ a {
 .LP .section-8 {
   position: absolute;
   width: 390px;
-  height: 1509px;
-  top: 11208px;
+  height: 1264px;
+  top: 9613px;
   left: 0;
   background-color: #f5f5f7;
 }
 
-.LP .container-6 {
+.LP .overlap-16 {
   position: relative;
-  height: 1392px;
-  top: 60px;
+  width: 350px;
+  height: 1173px;
+  top: 21px;
+  left: 20px;
 }
 
-.LP .heading-16 {
+.LP .container-5 {
+  position: absolute;
+  width: 350px;
+  height: 1136px;
+  top: 37px;
+  left: 0;
+}
+
+.LP .heading-15 {
   position: absolute;
   width: 173px;
   height: 41px;
-  top: -3px;
-  left: 109px;
+  top: -1px;
+  left: 89px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #333333;
@@ -2403,15 +2591,15 @@ a {
   white-space: nowrap;
 }
 
-.LP .container-7 {
+.LP .container-6 {
   position: absolute;
   width: 350px;
-  height: 1297px;
-  top: 77px;
-  left: 20px;
+  height: 1057px;
+  top: 79px;
+  left: 0;
 }
 
-.LP .background-shadow-10 {
+.LP .background-shadow-12 {
   width: 350px;
   height: 222px;
   top: 0;
@@ -2423,19 +2611,19 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .text-wrapper-57 {
-  width: 224px;
+.LP .text-wrapper-66 {
+  width: 251px;
+  top: 26px;
+  position: absolute;
   height: 24px;
-  top: 25px;
   left: 20px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #333333;
   font-size: 16px;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .horizontal-border {
@@ -2449,21 +2637,21 @@ a {
   border-color: #e0e0e0;
 }
 
-.LP .element-12 {
-  width: 320px;
-  height: 101px;
-  top: 16px;
-  left: 22px;
-  font-family: "Noto Sans JP-DemiLight", Helvetica;
-  font-weight: 300;
+.LP .a {
+  width: 304px;
+  height: 126px;
+  top: 8px;
+  left: 23px;
+  font-family: "Noto Sans JP-Light", Helvetica;
+  position: absolute;
+  font-weight: 400;
   color: #333333;
   font-size: 16px;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 25.6px;
 }
 
-.LP .background-shadow-11 {
+.LP .background-shadow-13 {
   width: 350px;
   height: 278px;
   top: 237px;
@@ -2475,22 +2663,22 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .text-wrapper-58 {
-  width: 208px;
-  height: 24px;
+.LP .text-wrapper-67 {
+  width: 238px;
   top: 25px;
-  left: 20px;
-  font-size: 16px;
-  line-height: 25.6px;
-  white-space: nowrap;
   position: absolute;
+  height: 24px;
+  left: 20px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #333333;
+  font-size: 16px;
   letter-spacing: 0;
+  line-height: 25.6px;
+  white-space: nowrap;
 }
 
-.LP .horizontal-border-2 {
+.LP .a-wrapper {
   height: 190px;
   top: 79px;
   position: absolute;
@@ -2501,50 +2689,24 @@ a {
   border-color: #e0e0e0;
 }
 
-.LP .text-wrapper-59 {
+.LP .a-2 {
   width: 306px;
   height: 177px;
   top: 5px;
   left: 22px;
-  font-family: "Noto Sans JP-DemiLight", Helvetica;
-  font-weight: 300;
+  font-family: "Noto Sans JP-Light", Helvetica;
+  position: absolute;
+  font-weight: 400;
   color: #333333;
   font-size: 16px;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
-}
-
-.LP .background-shadow-12 {
-  width: 350px;
-  height: 222px;
-  top: 530px;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0px 5px 15px #0000000d;
-}
-
-.LP .text-wrapper-60 {
-  width: 310px;
-  height: 101px;
-  top: 18px;
-  left: 20px;
-  font-family: "Noto Sans JP-DemiLight", Helvetica;
-  font-weight: 300;
-  color: #333333;
-  font-size: 16px;
   line-height: 25.6px;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .background-shadow-13 {
+.LP .background-shadow-14 {
   width: 350px;
   height: 247px;
-  top: 766px;
+  top: 533px;
   left: 0;
   overflow: hidden;
   position: absolute;
@@ -2553,22 +2715,22 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .text-wrapper-61 {
+.LP .text-wrapper-68 {
   width: 240px;
-  height: 24px;
   top: 25px;
+  position: absolute;
+  height: 24px;
   left: 20px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #333333;
   font-size: 16px;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .horizontal-border-3 {
+.LP .horizontal-border-2 {
   height: 169px;
   top: 78px;
   position: absolute;
@@ -2579,24 +2741,24 @@ a {
   border-color: #e0e0e0;
 }
 
-.LP .text-wrapper-62 {
+.LP .a-3 {
   width: 304px;
   height: 126px;
   top: 20px;
   left: 23px;
-  font-family: "Noto Sans JP-DemiLight", Helvetica;
-  font-weight: 300;
+  font-family: "Noto Sans JP-Light", Helvetica;
+  position: absolute;
+  font-weight: 400;
   color: #333333;
   font-size: 16px;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 25.6px;
 }
 
-.LP .background-shadow-14 {
+.LP .background-shadow-15 {
   width: 350px;
   height: 261px;
-  top: 1029px;
+  top: 796px;
   left: 0;
   overflow: hidden;
   position: absolute;
@@ -2605,7 +2767,22 @@ a {
   box-shadow: 0px 5px 15px #0000000d;
 }
 
-.LP .PC-zoom-zoom-discord-wrapper {
+.LP .text-wrapper-69 {
+  width: 235px;
+  top: 26px;
+  position: absolute;
+  height: 24px;
+  left: 20px;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  white-space: nowrap;
+}
+
+.LP .a-PC-zoom-zoom-wrapper {
   height: 183px;
   top: 78px;
   position: absolute;
@@ -2616,114 +2793,106 @@ a {
   border-color: #e0e0e0;
 }
 
-.LP .PC-zoom-zoom-discord {
-  position: absolute;
+.LP .a-PC-zoom-zoom {
   width: 303px;
   height: 154px;
   top: 15px;
   left: 26px;
-  font-family: "Noto Sans JP-DemiLight", Helvetica;
-  font-weight: 300;
+  font-family: "Noto Sans JP-Regular", Helvetica;
+  position: absolute;
+  font-weight: 400;
   color: #333333;
   font-size: 16px;
   letter-spacing: 0;
   line-height: 25.6px;
 }
 
+.LP .text-wrapper-70 {
+  font-family: "Noto Sans JP-Regular", Helvetica;
+  font-weight: 400;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 25.6px;
+}
+
+.LP .text-wrapper-71 {
+  font-family: "Noto Sans JP-Light", Helvetica;
+  font-weight: 300;
+}
+
+.LP .heading-16 {
+  position: absolute;
+  height: 38px;
+  top: 0;
+  left: 156px;
+  font-family: "Noto Sans JP-Regular", Helvetica;
+  font-weight: 400;
+  color: #333333;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 37.4px;
+  white-space: nowrap;
+}
+
 .LP .section-9 {
   position: absolute;
-  width: 399px;
-  height: 653px;
-  top: 12757px;
-  left: -2px;
-}
-
-.LP .overlap-15 {
-  position: absolute;
-  width: 482px;
-  height: 488px;
-  top: -41px;
-  left: -47px;
-}
-
-.LP .overlap-group-wrapper {
-  position: absolute;
-  width: 482px;
-  height: 488px;
-  top: 0;
+  width: 390px;
+  height: 649px;
+  top: 10877px;
   left: 0;
-}
-
-.LP .overlap-group-6 {
-  position: relative;
-  height: 488px;
-}
-
-.LP .element-13 {
-  position: absolute;
-  width: 482px;
-  height: 320px;
-  top: 3px;
-  left: 0;
-  object-fit: cover;
-}
-
-.LP .rectangle-2 {
-  position: absolute;
-  width: 471px;
-  height: 488px;
-  top: 0;
-  left: 8px;
-  background-color: #00000080;
+  background-color: #a4a4a4;
 }
 
 .LP .heading-17 {
   position: absolute;
-  width: 350px;
-  height: 150px;
-  top: 52px;
-  left: 67px;
-}
-
-.LP .text-wrapper-63 {
   width: 349px;
   height: 188px;
-  top: -21px;
+  top: 21px;
+  left: 15px;
+}
+
+.LP .text-wrapper-72 {
+  position: absolute;
+  width: 349px;
+  height: 188px;
+  top: -1px;
   left: 0;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 26px;
   text-align: center;
-  line-height: 37.4px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 37.4px;
 }
 
-.LP .text-wrapper-64 {
+.LP .text-wrapper-73 {
+  position: absolute;
   width: 335px;
   height: 50px;
-  top: 231px;
-  left: 75px;
+  top: 221px;
+  left: 23px;
   font-family: "Noto Sans JP-DemiLight", Helvetica;
   font-weight: 300;
   color: #ffffff;
   font-size: 16px;
   text-align: center;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 25.6px;
 }
 
-.LP .strong-11 {
+.LP .strong-7 {
   position: absolute;
   width: 371px;
   height: 50px;
-  top: 323px;
-  left: 75px;
+  top: 289px;
+  left: 23px;
 }
 
-.LP .text-wrapper-65 {
+.LP .text-wrapper-74 {
+  position: absolute;
   width: 411px;
   height: 50px;
   top: -1px;
@@ -2733,24 +2902,23 @@ a {
   color: #ffffff;
   font-size: 15px;
   text-align: center;
-  line-height: 25.6px;
-  position: absolute;
   letter-spacing: 0;
+  line-height: 25.6px;
 }
 
 .LP .link-4 {
   position: absolute;
   width: 127px;
   height: 60px;
-  top: 391px;
-  left: 62px;
+  top: 350px;
+  left: 10px;
   background-color: #ffffff;
   border-radius: 50px;
   border: 2px solid;
-  border-color: #2c4484;
+  border-color: #478beb;
 }
 
-.LP .overlap-16 {
+.LP .overlap-group-9 {
   position: relative;
   width: 196px;
   height: 45px;
@@ -2758,35 +2926,51 @@ a {
   left: -34px;
 }
 
-.LP .text-wrapper-66 {
+.LP .text-wrapper-75 {
+  position: absolute;
   width: 196px;
   height: 24px;
   top: 21px;
   left: 0;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
-  color: #4a4e9c;
+  color: #478beb;
   font-size: 15px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
+}
+
+.LP .text-wrapper-76 {
   position: absolute;
+  width: 196px;
+  height: 24px;
+  top: 0;
+  left: 0;
+  font-family: "Noto Sans JP-Bold", Helvetica;
+  font-weight: 700;
+  color: #478beb;
+  font-size: 14px;
+  text-align: center;
   letter-spacing: 0;
+  line-height: 25.6px;
+  white-space: nowrap;
 }
 
 .LP .link-5 {
   position: absolute;
   width: 226px;
   height: 64px;
-  top: 387px;
-  left: 196px;
-  background-color: #4c1d95;
+  top: 346px;
+  left: 144px;
+  background-color: #478beb;
   border-radius: 50px;
-  border: 2px solid;
   box-shadow: 0px 4px 4px #00000040;
 }
 
-.LP .text-wrapper-67 {
+.LP .text-wrapper-77 {
+  position: absolute;
   width: 180px;
   height: 24px;
   top: 18px;
@@ -2796,26 +2980,25 @@ a {
   color: #ffffff;
   font-size: 18px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .footer {
   position: absolute;
   width: 390px;
-  height: 205px;
+  height: 202px;
   top: 447px;
   left: 0;
   background-color: #ffde59;
 }
 
-.LP .container-8 {
+.LP .container-7 {
   position: relative;
   width: 390px;
   height: 147px;
-  top: 29px;
+  top: 27px;
 }
 
 .LP .link-6 {
@@ -2826,7 +3009,8 @@ a {
   left: 99px;
 }
 
-.LP .text-wrapper-68 {
+.LP .text-wrapper-78 {
+  position: absolute;
   width: 192px;
   height: 24px;
   top: -1px;
@@ -2836,10 +3020,9 @@ a {
   color: #333333;
   font-size: 16px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .link-7 {
@@ -2850,7 +3033,8 @@ a {
   left: 115px;
 }
 
-.LP .text-wrapper-69 {
+.LP .text-wrapper-79 {
+  position: absolute;
   width: 160px;
   height: 24px;
   top: -1px;
@@ -2860,10 +3044,9 @@ a {
   color: #333333;
   font-size: 16px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
 .LP .link-8 {
@@ -2874,7 +3057,8 @@ a {
   left: 163px;
 }
 
-.LP .text-wrapper-70 {
+.LP .text-wrapper-80 {
+  position: absolute;
   width: 64px;
   height: 24px;
   top: -1px;
@@ -2884,13 +3068,12 @@ a {
   color: #333333;
   font-size: 16px;
   text-align: center;
+  letter-spacing: 0;
   line-height: 25.6px;
   white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
 }
 
-.LP .text-wrapper-71 {
+.LP .text-wrapper-81 {
   position: absolute;
   width: 301px;
   height: 21px;
@@ -2907,30 +3090,16 @@ a {
   white-space: nowrap;
 }
 
-.LP .text-wrapper-72 {
-  height: 39px;
-  top: 13px;
-  left: 42px;
-  font-family: "Noto Sans JP-Bold", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 24px;
-  line-height: 38.4px;
-  white-space: nowrap;
-  position: absolute;
-  letter-spacing: 0;
-}
-
-.LP .rectangle-3 {
+.LP .rectangle {
   position: fixed;
   width: 390px;
   height: 67px;
   top: 0;
   left: 0;
-  background-color: #d9d9d9;
+  background-color: #ffde59;
 }
 
-.LP .rectangle-4 {
+.LP .rectangle-2 {
   position: fixed;
   width: 121px;
   height: 48px;
@@ -2940,13 +3109,13 @@ a {
   border-radius: 6px;
 }
 
-.LP .rectangle-5 {
+.LP .rectangle-3 {
   position: fixed;
   width: 121px;
   height: 48px;
   top: 10px;
   left: 255px;
-  background-color: #ffde59;
+  background-color: #478beb;
   border-radius: 6px;
 }
 
@@ -2985,12 +3154,9 @@ a {
   left: 268px;
   font-family: "Noto Sans JP-Bold", Helvetica;
   font-weight: 700;
-  color: #000000;
+  color: #ffffff;
   font-size: 16px;
   text-align: center;
   letter-spacing: 0;
   line-height: 18px;
-}
-:root {
-  --size-space-100: 4px;
 }
